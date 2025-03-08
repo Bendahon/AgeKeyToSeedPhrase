@@ -1,8 +1,9 @@
 # Convert AGE encryption keys to passphrases
+A wrapper to sit on top of [AGE](https://github.com/FiloSottile/age) - A random tool I use infrequently.
 
 ---
 # Key point
-This doesn't remove or change anything to with `age-keygen` - I still let people way smarted than me  
+This doesn't remove or change anything to with `age-keygen` - I still let people way smarter than me do encryption
 
 ---
 # Working with it
