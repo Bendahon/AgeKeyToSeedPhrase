@@ -12,7 +12,8 @@ func DecimalToWordList(decimalValues []int64, wordList []string) []string {
 	for i, decimalValue := range decimalValues {
 		if decimalValue < 0 || decimalValue >= int64(len(wordList)) {
 			fmt.Printf("Error: decimal value %d out of range for word list.\n", decimalValue)
-			return nil // Return nil on error
+			// Return nil on error
+			return nil
 		}
 		words[i] = wordList[decimalValue]
 	}
